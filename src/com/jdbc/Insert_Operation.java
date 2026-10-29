@@ -12,7 +12,7 @@ public class Insert_Operation {
 		final String name = "root";
 		final String password = "123456";
 
-		String Query = "insert into student values(101,'sai',30,90)";
+		String Query = "insert into student values(102,'ram',20,70)";
 
 		try {
 			Connection conn = DriverManager.getConnection(url, name, password);
